@@ -14,7 +14,7 @@
 
 ## Issues:
 
-1. java install error
+### 1. java install error
 
 - 이미 로컬에 Java가 설치되어있고 환경변수도 설정했지만 계속 설치하라는 문제
 
@@ -24,11 +24,11 @@
 <img width="1150" alt="스크린샷 2023-02-24 오후 8 34 51" src="https://user-images.githubusercontent.com/79200729/221390895-3fe5ae4e-81c9-4fc8-8609-b7524dc76cf2.png">
 
    
-2. main에 pangolin 상대경로 문제
+### 2. main에 pangolin 상대경로 문제
 
 ->Opencv, Eigen3 같은 경우 상대 경로를 잘 찾아갔지만 Pangoling의 경우 pathing이 되지않아 절대 경로로 설정하였습니다.
 
-3. OpenGL 라이브러리 파일 참조 문제
+### 3. OpenGL 라이브러리 파일 참조 문제
 
 -> 원인은 정확히 모르겠으나, 1번 해결 방법으로 인해 해결된 것 같습니다.
 
